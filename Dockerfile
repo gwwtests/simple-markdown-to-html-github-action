@@ -1,4 +1,5 @@
-FROM pandoc/latex:2.14.0.3  # TODO: consider update
+FROM pandoc/latex:2.14.0.3
+# TODO: consider update above version
 
 # Install necessary dependencies
 RUN apk add --no-cache bash gawk sed grep bc coreutils
